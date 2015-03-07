@@ -8,5 +8,14 @@
     <TextView android:text="@string/title" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/test1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/testButton"
+        android:onClick="sendMessage"
+        android:layout_below="@+id/test1"
+        android:layout_alignRight="@+id/test1"
+        android:layout_alignEnd="@+id/test1"
+        android:layout_marginTop="101dp" />
 
 </RelativeLayout>
